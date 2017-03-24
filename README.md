@@ -1,6 +1,6 @@
 # Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc: supplementary material
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/poliastro/poliastro/raw/master/COPYING)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/fangohr/paper-supplement-nanoparticle-sensing/master/LICENSE)
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/maxalbert/paper-supplement-nanoparticle-sensing)
 
 This repository accompanies the paper _"Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc"_.
