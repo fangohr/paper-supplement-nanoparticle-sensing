@@ -3,6 +3,7 @@
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/fangohr/paper-supplement-nanoparticle-sensing/master/LICENSE)
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fangohr/paper-supplement-nanoparticle-sensing)
 [![rerun-notebooks](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml/badge.svg)](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml)
+[![Corresponding publication](https://img.shields.io/badge/Publication-URL-orange.svg?style=flat-square)](https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502)
 
 This repository accompanies the paper [https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502](_"Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc"_).
 It provides the data underlying the figures in the paper as well as Jupyter notebooks to reproduce those figures.
