@@ -3,10 +3,12 @@
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/fangohr/paper-supplement-nanoparticle-sensing/master/LICENSE)
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fangohr/paper-supplement-nanoparticle-sensing)
 [![rerun-notebooks](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml/badge.svg)](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml)
+[![Corresponding publication](https://img.shields.io/badge/Publication-URL-orange.svg?style=flat-square)](https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502)
 
-This repository accompanies the paper _"Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc"_.
+This repository accompanies the paper "Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc" (https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502).
+
 It provides the data underlying the figures in the paper as well as Jupyter notebooks to reproduce those figures.
-The latest version of this repository can be found at https://github.com/maxalbert/paper-supplement-nanoparticle-sensing
+The latest version of this repository can be found at https://github.com/fangohr/paper-supplement-nanoparticle-sensing
 
 ----------
 
@@ -39,7 +41,7 @@ The easiest way to execute the notebooks without installing anything
 is to launch a cloud Jupyter server using [Binder](http://mybinder.org/).
 You can access it here:
 
-http://mybinder.org/repo/maxalbert/paper-supplement-nanoparticle-sensing
+http://mybinder.org/repo/fangohr/paper-supplement-nanoparticle-sensing
 
 ### Running the notebooks locally on your machine
 
@@ -47,51 +49,32 @@ In order to run the notebooks on your own computer, follow the steps below.
 
 1. Clone this repository and change into the newly created directory:
    ```
-   git clone https://github.com/maxalbert/paper-supplement-nanoparticle-sensing.git
+   git clone https://github.com/fangohr/paper-supplement-nanoparticle-sensing.git
    cd paper-supplement-nanoparticle-sensing
    ```
 
-2. Make sure that you have all required dependencies installed (see below; we recommend the installation using conda if possible).
-
-3. Start a notebook server:
+2. Install all required dependencies. Tested for Python 3.9 to Python 3.11. First, create a virtual environment (or conda environment if you prefer):
+   ```shell
+   python -m venv venv-paper
+   source venv-paper/bin/activate
    ```
+   Then install the required libraries:
+   ```shell
+   pip install -r requirements.txt
+   ```
+   
+3. Start a notebook server:
+   ```shell
    jupyter notebook
    ```
    This will open a browser window with a dashboard showing the contents of this repository.
 
-4. Navigate to the `notebooks/` folder and open any of the `.ipynb` files. You can reproduce
-the associated figure by selecting the menu item `Cell -> Run All`.
+4. Navigate to the `notebooks/` folder and open any of the `.ipynb` files. You can reproduce 
+   the associated figure by selecting the menu item `Cell -> Run All`.
 
 
-## Required dependencies
+## Changes
 
-In order to execute the notebooks, the following dependencies are required.
-
-- `python`
-- `ipython`
-- `jupyter`
-- `matplotlib` (>= 1.5)
-- `numexpr`
-- `pandas` (>= 0.18)
-- `statsmodels`
-
-You can install them using `pip` as follows:
-```
-pip install ipython jupyter matplotlib numexpr pandas statsmodels
-```
-However, be aware that this may potentially take a *long* time (and
-you may need to install additional dependencies via your
-distribution's package manager).
-
-Alternatively, if you have `conda` installed (which comes with the [Anaconda](https://docs.continuum.io/anaconda/index) distribution
-or can be installed via [Miniconda](http://conda.pydata.org/miniconda.html)) then the recommended (and much faster) way to install these dependencies
-is by running the following command from the toplevel of this repository:
-```
-conda env create -f environment.yml
-```
-This will create a conda environment called `particle-sensing` which contains all the required dependencies.
-Don't forget to activate the new environment before running the notebooks:
-```
-source activate particle-sensing  # on Linux/Unix
-activate particle-sensing         # on Windows
-```
+- [11 February 2023](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/pull/2): 
+  changed from conda-environment to requirements.txt, added
+  CI, updated notebooks to execute with latest matplotlib.
