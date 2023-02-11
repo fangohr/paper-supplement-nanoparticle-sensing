@@ -5,8 +5,8 @@
 [![rerun-notebooks](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml/badge.svg)](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml)
 [![Corresponding publication](https://img.shields.io/badge/Publication-URL-orange.svg?style=flat-square)](https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502)
 
-This repository accompanies the paper 
-[https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502](Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc).
+This repository accompanies the paper "Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc" (https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502).
+
 It provides the data underlying the figures in the paper as well as Jupyter notebooks to reproduce those figures.
 The latest version of this repository can be found at https://github.com/fangohr/paper-supplement-nanoparticle-sensing
 
