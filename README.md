@@ -4,9 +4,9 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fangohr/paper-supplement-nanoparticle-sensing)
 [![rerun-notebooks](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml/badge.svg)](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml)
 
-This repository accompanies the paper _"Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc"_.
+This repository accompanies the paper [https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502](_"Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc"_).
 It provides the data underlying the figures in the paper as well as Jupyter notebooks to reproduce those figures.
-The latest version of this repository can be found at https://github.com/maxalbert/paper-supplement-nanoparticle-sensing
+The latest version of this repository can be found at https://github.com/fangohr/paper-supplement-nanoparticle-sensing
 
 ----------
 
@@ -62,7 +62,7 @@ In order to run the notebooks on your own computer, follow the steps below.
    ```
    
 3. Start a notebook server:
-   ```
+   ```shell
    jupyter notebook
    ```
    This will open a browser window with a dashboard showing the contents of this repository.
