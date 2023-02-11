@@ -1,0 +1,10 @@
+future
+ipython
+jupyter
+matplotlib
+numexpr
+numpy
+pandas
+pytest
+nbval
+statsmodels
