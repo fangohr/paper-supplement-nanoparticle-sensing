@@ -1,7 +1,7 @@
 # Frequency-based nanoparticle sensing over large field ranges using the ferromagnetic resonances of a magnetic nanodisc: supplementary material
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/fangohr/paper-supplement-nanoparticle-sensing/master/LICENSE)
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fangohr/paper-supplement-nanoparticle-sensing)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/fangohr/paper-supplement-nanoparticle-sensing/HEAD)
 [![rerun-notebooks](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml/badge.svg)](https://github.com/fangohr/paper-supplement-nanoparticle-sensing/actions/workflows/rerun-notebooks.yaml)
 [![Corresponding publication](https://img.shields.io/badge/Publication-URL-orange.svg?style=flat-square)](https://iopscience.iop.org/article/10.1088/0957-4484/27/45/455502)
 
@@ -41,7 +41,7 @@ The easiest way to execute the notebooks without installing anything
 is to launch a cloud Jupyter server using [Binder](http://mybinder.org/).
 You can access it here:
 
-http://mybinder.org/repo/fangohr/paper-supplement-nanoparticle-sensing
+https://mybinder.org/v2/gh/fangohr/paper-supplement-nanoparticle-sensing/HEAD
 
 ### Running the notebooks locally on your machine
 
